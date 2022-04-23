@@ -4,5 +4,7 @@
  * Semicolons are optional
  */
 fun main(args: Array<String>) {
-    println("From Kotlin ${args.joinToString()}")
+    // NOTE : kotlin doesn't have new Keyword
+    val customerUser = CustomerUser("Badri Paudel", true, "bp@test.com", "BPPASSWORD")
+    println(customerUser.authenticateUser("Badri Paudel", true, "bp@test.com", "BPPASSWORD"))
 }
