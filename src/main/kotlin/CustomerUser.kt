@@ -1,5 +1,4 @@
 import org.jetbrains.annotations.NotNull
-import sun.security.util.Length
 
 /*
  * Class in kotlin has same intention as in other language like Java
