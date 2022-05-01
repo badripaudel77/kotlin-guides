@@ -1,13 +1,13 @@
 /*
  ** Created by Badri Paudel
- *
+ * list can be of immutable [can't be changed]  and mutable [can't be changed]
  */
 fun main(arguments: Array<String>) {
     arraysDemo()
 }
 
 fun arraysDemo() {
-    // this list can't be changed
+    // this list can't be changed, immutable list
     var eventStatuses = listOf("FINISHED", "BOOKED", "COMPLETED", "WAITING_FOR_CONFIRMATION")
     for (eventStatus in eventStatuses) {
         print("$eventStatus ")
