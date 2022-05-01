@@ -3,6 +3,7 @@
  * when one value is passed , do this
  * if another value is passed do this
  * and so on...
+ * similar to switch statement in C language. https://kotlinlang.org/docs/control-flow.html#when-expression
  */
 
 fun main(arguments: Array<String>) {
