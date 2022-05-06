@@ -2,9 +2,9 @@ import org.jetbrains.annotations.NotNull
 
 /*
  * Class in kotlin has same intention as in other language like Java
- * Value can be passed during class decalration in it's body [an alternative to constructor]
+ * Value can be passed during class declaration in its body [an alternative to constructor]
  */
-class Shape(var length: Double, var breadth: Double) {
+class Shape( length: Double, breadth: Double) {
  private val perimeter = 2 * (length + breadth)
     fun printPerimeter() : Double {
         return perimeter

@@ -1,6 +1,6 @@
 /*
  ** Created by Badri Paudel
- * list can be of immutable [can't be changed]  and mutable [can't be changed]
+ * list can be of immutable [can't be changed]  and mutable [can be changed]
  */
 fun main(arguments: Array<String>) {
     arraysDemo()
