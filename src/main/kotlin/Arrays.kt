@@ -9,6 +9,13 @@ fun main(arguments: Array<String>) {
     arraysDemo()
 }
 
+fun diffArray() {
+    val intArray:IntArray = intArrayOf(1,2,3)
+    val doubleArray:DoubleArray = doubleArrayOf(2.2, 3.3, 4.4)
+    val charArray:CharArray = charArrayOf('a', 'b')
+    //...
+}
+
 fun arraysDemo() {
     // this list can't be changed, immutable list
     var eventStatuses = listOf("FINISHED", "BOOKED", "COMPLETED", "WAITING_FOR_CONFIRMATION")
