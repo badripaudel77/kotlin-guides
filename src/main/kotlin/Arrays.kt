@@ -1,3 +1,5 @@
+import com.kotlin.exception.ExceptionDemo
+
 /*
  ** Created by Badri Paudel
  * list can be of immutable [can't be changed]  and mutable [can be changed]
@@ -7,13 +9,21 @@ fun main(arguments: Array<String>) {
     array.forEach { it_ -> print("${it_.toDouble()} ") }
     println()
     arraysDemo()
+    diffArray()
 }
 
 fun diffArray() {
-    val intArray:IntArray = intArrayOf(1,2,3)
+    val intArray:IntArray = intArrayOf(1,2,3, 9)
     val doubleArray:DoubleArray = doubleArrayOf(2.2, 3.3, 4.4)
     val charArray:CharArray = charArrayOf('a', 'b')
     //...
+    if(intArray is IntArray) {
+        println("yes , it's an int array.")
+    }
+    else {
+        println("no, it's not int array.")
+        throw  ExceptionDemo("it's not an int array.")
+    }
 }
 
 fun arraysDemo() {

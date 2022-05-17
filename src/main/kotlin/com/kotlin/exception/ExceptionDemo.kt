@@ -1,4 +1,4 @@
-/*
+package com.kotlin.exception/*
  * All exception classes in Kotlin inherit the Throwable class.
  * Every exception has a message, a stack trace, and an optional cause.
  * Has try, catch & finally just like in java
