@@ -17,6 +17,12 @@ fun diffArray() {
     val doubleArray:DoubleArray = doubleArrayOf(2.2, 3.3, 4.4)
     val charArray:CharArray = charArrayOf('a', 'b')
     //...
+    try{
+      println("inaccessible element ${intArray[5]}")
+    }
+    catch (ex:Exception) {
+        throw ExceptionDemo("ArrayIndexOutOfBoundsException")
+    }
     if(intArray is IntArray) {
         println("yes , it's an int array.")
     }
