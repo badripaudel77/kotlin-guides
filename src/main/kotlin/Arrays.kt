@@ -3,6 +3,9 @@
  * list can be of immutable [can't be changed]  and mutable [can be changed]
  */
 fun main(arguments: Array<String>) {
+    val array = Array(5) { i -> (i * i).toString() } // use array constructor and function that returns the values.
+    array.forEach { it_ -> print("${it_.toDouble()} ") }
+    println()
     arraysDemo()
 }
 
